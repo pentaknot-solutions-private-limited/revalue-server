@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metrics",
+  "info": {
+    "singularName": "metric",
+    "pluralName": "metrics",
+    "displayName": "Metric"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "strength": {
+      "type": "integer"
+    },
+    "services_offered": {
+      "type": "integer"
+    },
+    "years_of_experience": {
+      "type": "integer"
+    },
+    "completed_projects": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "mon_sat": {
+      "type": "text"
+    },
+    "sunday": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}
